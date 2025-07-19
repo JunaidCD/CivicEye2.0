@@ -48,7 +48,22 @@ A modern civic-tech platform that empowers communities to identify, report, and 
 
 4. **Open your browser**
    Navigate to `http://localhost:5000` to see the application running.
+
+5. **Project Structure**
+├── client/               # Frontend React application
+│   ├── src/
+│   │   ├── components/   # UI components
+│   │   ├── context/      # React context providers
+│   │   ├── hooks/        # Custom React hooks
+│   │   ├── lib/          # Utility functions and configuration
+│   │   ├── pages/        # Page components
+│   │   └── types/        # TypeScript type definitions
+├── server/               # Express backend
+│   ├── routes.ts         # API endpoints
+│   └── storage.ts        # Data persistence layer
+└── shared/               # Shared code between frontend and backend
+    └── schema.ts         # Database schema and types
    
 
-5. **Contributing**
+6. **Contributing**
 Contributions are welcome! Please feel free to submit a Pull Request
