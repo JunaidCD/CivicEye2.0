@@ -50,7 +50,24 @@ A modern civic-tech platform that empowers communities to identify, report, and 
    Navigate to `http://localhost:5000` to see the application running.
 
 5. **Project Structure**
-<pre> <code> ```plaintext client/ # Frontend React application client/src/ client/src/components/ # UI components client/src/context/ # React context providers client/src/hooks/ # Custom React hooks client/src/lib/ # Utility functions and configuration client/src/pages/ # Page components client/src/types/ # TypeScript type definitions server/ # Express backend server/routes.ts # API endpoints server/storage.ts # Data persistence layer shared/ # Shared code between frontend and backend shared/schema.ts # Database schema and types ``` </code> </pre>
+```plaintext
+client/                         # Frontend React application
+client/src/
+client/src/components/          # UI components
+client/src/context/             # React context providers
+client/src/hooks/               # Custom React hooks
+client/src/lib/                 # Utility functions and configuration
+client/src/pages/               # Page components
+client/src/types/               # TypeScript type definitions
+
+server/                         # Express backend
+server/routes.ts                # API endpoints
+server/storage.ts               # Data persistence layer
+
+shared/                         # Shared code between frontend and backend
+shared/schema.ts                # Database schema and types
+```
+
    
 
 6. **Contributing**
